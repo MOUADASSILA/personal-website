@@ -47,8 +47,8 @@ section{
     min-height:100vh;
     display: flex;
     align-items: center;
-    background-color: #282A35;
-    background: url(2.jpg) no-repeat;
+    background-color: #4c4e57;
+    background: url(images/2.jpg) no-repeat;
     background-size:cover;
     background-position: center;
    /* background-attachment: fixed;*//*katkhali sora fblashta*/
@@ -116,13 +116,14 @@ section{
     
 }
 .content {
+    
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .card {
-    background-color: white;
+    background-color: rgb(229, 229, 238);
     width: 18.21em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 10);
     border-radius: 10%;
@@ -131,7 +132,7 @@ section{
     transition: 0.6s ease;
 }
 .card:hover{
-    background-color:rgb(224, 233, 173);
+    background-color:rgb(87, 90, 72);
     transform: scale(1.2);
 
 }
